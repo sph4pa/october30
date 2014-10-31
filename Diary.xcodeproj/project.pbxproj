@@ -22,6 +22,14 @@
 		D9218D29199E6A420029082B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9218D0D199E6A420029082B /* CoreData.framework */; };
 		D9218D31199E6A420029082B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9218D2F199E6A420029082B /* InfoPlist.strings */; };
 		D9218D33199E6A420029082B /* DiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9218D32199E6A420029082B /* DiaryTests.m */; };
+		D9218D3E199E6E240029082B /* SHCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D9218D3D199E6E240029082B /* SHCoreDataStack.m */; };
+		D9218D41199E73530029082B /* SHDiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = D9218D40199E73530029082B /* SHDiaryEntry.m */; };
+		D9218D43199E75A10029082B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9218D42199E75A10029082B /* MainStoryboard.storyboard */; };
+		D9218D46199E77C00029082B /* SHEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9218D45199E77C00029082B /* SHEntryViewController.m */; };
+		D9218D49199E7ECE0029082B /* SHEntryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9218D48199E7ECE0029082B /* SHEntryListViewController.m */; };
+		D9218EBF19A2754E0029082B /* SHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9218EBE19A2754E0029082B /* SHNavigationController.m */; };
+		D9218EC219A293C30029082B /* SHEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9218EC119A293C30029082B /* SHEntryCell.m */; };
+		D9218EC419A3AC900029082B /* icn_image.png in Resources */ = {isa = PBXBuildFile; fileRef = D9218EC319A3AC900029082B /* icn_image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,20 @@
 		D9218D2E199E6A420029082B /* DiaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiaryTests-Info.plist"; sourceTree = "<group>"; };
 		D9218D30199E6A420029082B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9218D32199E6A420029082B /* DiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaryTests.m; sourceTree = "<group>"; };
+		D9218D3C199E6E240029082B /* SHCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCoreDataStack.h; sourceTree = "<group>"; };
+		D9218D3D199E6E240029082B /* SHCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCoreDataStack.m; sourceTree = "<group>"; };
+		D9218D3F199E73530029082B /* SHDiaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDiaryEntry.h; sourceTree = "<group>"; };
+		D9218D40199E73530029082B /* SHDiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDiaryEntry.m; sourceTree = "<group>"; };
+		D9218D42199E75A10029082B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D9218D44199E77C00029082B /* SHEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHEntryViewController.h; sourceTree = "<group>"; };
+		D9218D45199E77C00029082B /* SHEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHEntryViewController.m; sourceTree = "<group>"; };
+		D9218D47199E7ECE0029082B /* SHEntryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHEntryListViewController.h; sourceTree = "<group>"; };
+		D9218D48199E7ECE0029082B /* SHEntryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHEntryListViewController.m; sourceTree = "<group>"; };
+		D9218EBD19A2754E0029082B /* SHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNavigationController.h; sourceTree = "<group>"; };
+		D9218EBE19A2754E0029082B /* SHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNavigationController.m; sourceTree = "<group>"; };
+		D9218EC019A293C30029082B /* SHEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHEntryCell.h; sourceTree = "<group>"; };
+		D9218EC119A293C30029082B /* SHEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHEntryCell.m; sourceTree = "<group>"; };
+		D9218EC319A3AC900029082B /* icn_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +139,22 @@
 			children = (
 				D9218D18199E6A420029082B /* SHAppDelegate.h */,
 				D9218D19199E6A420029082B /* SHAppDelegate.m */,
+				D9218D3C199E6E240029082B /* SHCoreDataStack.h */,
+				D9218D3D199E6E240029082B /* SHCoreDataStack.m */,
+				D9218EBD19A2754E0029082B /* SHNavigationController.h */,
+				D9218EBE19A2754E0029082B /* SHNavigationController.m */,
+				D9218D47199E7ECE0029082B /* SHEntryListViewController.h */,
+				D9218D48199E7ECE0029082B /* SHEntryListViewController.m */,
+				D9218D44199E77C00029082B /* SHEntryViewController.h */,
+				D9218D45199E77C00029082B /* SHEntryViewController.m */,
 				D9218D1E199E6A420029082B /* Images.xcassets */,
 				D9218D1B199E6A420029082B /* Diary.xcdatamodeld */,
+				D9218D42199E75A10029082B /* MainStoryboard.storyboard */,
+				D9218EC019A293C30029082B /* SHEntryCell.h */,
+				D9218EC119A293C30029082B /* SHEntryCell.m */,
+				D9218D3F199E73530029082B /* SHDiaryEntry.h */,
+				D9218D40199E73530029082B /* SHDiaryEntry.m */,
+				D9218EC319A3AC900029082B /* icn_image.png */,
 				D9218D10199E6A420029082B /* Supporting Files */,
 			);
 			path = Diary;
@@ -229,6 +265,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9218EC419A3AC900029082B /* icn_image.png in Resources */,
+				D9218D43199E75A10029082B /* MainStoryboard.storyboard in Resources */,
 				D9218D14199E6A420029082B /* InfoPlist.strings in Resources */,
 				D9218D1F199E6A420029082B /* Images.xcassets in Resources */,
 			);
@@ -249,9 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9218D41199E73530029082B /* SHDiaryEntry.m in Sources */,
+				D9218D46199E77C00029082B /* SHEntryViewController.m in Sources */,
+				D9218EBF19A2754E0029082B /* SHNavigationController.m in Sources */,
+				D9218D3E199E6E240029082B /* SHCoreDataStack.m in Sources */,
 				D9218D1D199E6A420029082B /* Diary.xcdatamodeld in Sources */,
 				D9218D16199E6A420029082B /* main.m in Sources */,
 				D9218D1A199E6A420029082B /* SHAppDelegate.m in Sources */,
+				D9218D49199E7ECE0029082B /* SHEntryListViewController.m in Sources */,
+				D9218EC219A293C30029082B /* SHEntryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

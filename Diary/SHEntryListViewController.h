@@ -1,5 +1,5 @@
 //
-//  SHAppDelegate.h
+//  SHEntryListViewController.h
 //  Diary
 //
 //  Created by Remote Tiger on 8/15/14.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SHAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface SHEntryListViewController : UITableViewController
 
 @end
